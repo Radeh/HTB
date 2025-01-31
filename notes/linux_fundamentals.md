@@ -71,3 +71,26 @@ wc # prints newline, word, and byte counts for an inputs
 chmod # changes permission of a file or directory
 chown # changes owner and group of a file or directory
 ```
+
+## Find Files & Directories
+
+```bash
+find <location> <options>
+
+# Common options
+# . (current directory)
+# /path/to/dir (specify directory)
+# -name "pattern" (search by file name - case sensitive)
+# -iname "pattern" (search by file name - case insensitive)
+# -type (search for files only)
+# -type d (directories only)
+# -size +kb (search files larger than)
+# -size -kb (search files smaller than)
+# -mtime -N (modified last N days)
+# -mtime +N (modified more than N days ago)
+# -user username (files owned by user)
+# -group groupname (files owned by group)
+# -perm mode (files with permission types)
+# -exec command {} \; (execute command on found files)
+#
+```
