@@ -1,6 +1,6 @@
 # Linux Fundamentals
 
-## Basic Commans
+## Basic Commands
 
 ```bash
 man <tool> # man pages
