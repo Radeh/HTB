@@ -82,7 +82,7 @@ find <location> <options>
 # /path/to/dir (specify directory)
 # -name "pattern" (search by file name - case sensitive)
 # -iname "pattern" (search by file name - case insensitive)
-# -type (search for files only)
+# -type f (search for files only)
 # -type d (directories only)
 # -size +kb (search files larger than)
 # -size -kb (search files smaller than)
